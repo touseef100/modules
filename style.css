@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-container-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading-one {
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.content-container-wrapper {
+    max-width: max-content;
+    margin: 20px auto;
+}
+
+.column {
+    width: calc(100% / 3);
+    float: left;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 75%;
+}
+
+
+/* responsive */
+
+@media screen and ( max-width :1170px) {
+    .container-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width :500px) {
+    .first-container-wrapper {
+        width: auto;
+        overflow-x: hidden;
+    }
+    .column {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
+}
+
+
+/* -------------------------second------------circle---task----------- */
+
+.second-container-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.heading-two {
+    font-size: x-large;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.column-container-wrapper {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.item {
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px;
+    float: left;
+}
+
+.item img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* responsive */
+
+@media screen and ( max-width :1170px) {
+    .second-container-wrapper {
+        width: 800px;
+    }
+    .item {
+        width: 40%;
+    }
+}
+
+@media screen and ( max-width :500px) {
+    .second-container-wrapper {
+        width: auto;
+        overflow-x: hidden;
+    }
+    .item {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* -------------------third-----parallex---------------------------- */
+
+.parallex-container {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parallex-one {
+    background-image: url(https://picsum.photos/1170/864);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+    opacity: 0.7;
+}
+
+.caption {
+    position: absolute;
+    min-width: 100%;
+    top: 47%;
+    left: 0;
+    text-align: center;
+}
+
+.span-box {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(28, 26, 26);
+}
+
+.parallex-two {
+    background-image: url(https://picsum.photos/1170/865);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+    opacity: 0.7;
+}
+
+@media screen and ( max-width :1170px) {
+    .parallex-container {
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width :500px) {
+    .parallex-container {
+        width: auto;
+    }
+    .parallex,
+    .parallex-two {
+        width: 100%;
+    }
+}
+
+
+/* -----------------fourth--------------task------------------------- */
+
+.fourth-container-wrapper {
+    max-width: 1170px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 80px 0 80px 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: url(https://www.w3schools.com/html/pic_trulli.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.list-heading {
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.btn {
+    padding: 10px 40px;
+    background: rgba(246, 173, 45, 1);
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    border: 2px solid rgba(246, 173, 45, 1);
+    background: white;
+    color: rgba(246, 173, 45, 1);
+    transition: all 1s ease;
+}
+
+
+/* ------------------fifth--task----------------------------------------- */
+
+.fifth-container-wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-box {
+    width: 75%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 1fr; */
+}
+
+
+/* ------------------sixth--task----------------------------------------- */
+
+.sixth-container-wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.sixth-content-container {
+    width: 75%;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 25px;
+}
