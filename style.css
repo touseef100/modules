@@ -1,342 +1,401 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    i {
-        cursor: pointer;
-    }
-    
-    .first-container-wrapper {
-        max-width: 1170px;
-        margin: 0 auto;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    .heading-one {
-        font-size: x-large;
-        font-weight: 700;
-        text-align: center;
-        margin: 30px 0;
-    }
-    
-    .content-container-wrapper {
-        max-width: max-content;
-        margin: 20px auto;
-    }
-    
-    .column-one {
-        width: calc(100% / 3);
-        float: left;
-        box-sizing: border-box;
-    }
-    
-    .clearfix {
-        clear: both;
-    }
-    
-    h4 {
-        margin: 20px 0;
-    }
-    /* responsive */
-    
-    @media screen and ( max-width :500px) {
-        .first-container-wrapper {
-            width: auto;
-            overflow-x: hidden;
-        }
-        .column-one {
-            width: 100%;
-            float: none;
-            text-align: left;
-        }
-    }
-    /* -------------------------second------------circle---task----------- */
-    
-    .second-container-wrapper {
-        max-width: 1170px;
-        margin: 0 auto;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-    }
-    
-    .clearfix {
-        clear: both;
-    }
-    
-    .heading-two {
-        font-size: x-large;
-        font-weight: 700;
-        padding: 30px 0;
-    }
-    
-    .column-container-wrapper {
-        width: max-content;
-        margin: 0 auto;
-    }
-    
-    .item {
-        width: calc(100% / 3 - 30px);
-        margin: 0 15px;
-        float: left;
-    }
-    
-    .item img {
-        border-radius: 50%;
-        margin: 0 auto;
-        display: block;
-    }
-    /* responsive */
-    
-    @media screen and ( max-width :1170px) {
-        .second-container-wrapper {
-            width: 800px;
-        }
-        .item {
-            width: 40%;
-        }
-    }
-    
-    @media screen and ( max-width :500px) {
-        .second-container-wrapper {
-            width: auto;
-            overflow-x: hidden;
-        }
-        .item {
-            width: 100%;
-            float: none;
-        }
-    }
-    /* -------------------third-----parallex---------------------------- */
-    
-    .parallex-container {
-        width: 1170px;
-        margin: 0 auto;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    .parallex-one {
-        background-image: url(https://picsum.photos/1170/864);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        color: white;
-        position: relative;
-        opacity: 0.7;
-    }
-    
-    .caption {
-        position: absolute;
-        min-width: 100%;
-        top: 47%;
-        left: 0;
-        text-align: center;
-    }
-    
-    .span-box {
-        padding: 15px;
-        font-size: 25px;
-        color: white;
-        background-color: rgb(28, 26, 26);
-    }
-    
-    .parallex-two {
-        background-image: url(https://picsum.photos/1170/865);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        color: white;
-        position: relative;
-        opacity: 0.7;
-    }
-    
-    @media screen and ( max-width :500px) {
-        .parallex-container {
-            width: auto;
-        }
-        .parallex,
-        .parallex-two {
-            width: 100%;
-        }
-    }
-    /* -----------------fourth--------------task------------------------- */
-    
-    .fourth-container-wrapper {
-        max-width: 1170px;
-        line-height: 30px;
-        margin: 0 auto;
-        padding: 80px 0 80px 80px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-        background-image: url(https://www.w3schools.com/html/pic_trulli.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-    }
-    
-    .list-heading {
-        font-size: xx-large;
-        font-weight: 700;
-        line-height: 30px;
-    }
-    
-    .btn {
-        padding: 10px 40px;
-        background: rgba(246, 173, 45, 1);
-        color: black;
-        text-decoration: none;
-        border-radius: 50px;
-        font-weight: bold;
-    }
-    
-    .btn:hover {
-        border: 2px solid rgba(246, 173, 45, 1);
-        background: white;
-        color: rgba(246, 173, 45, 1);
-        transition: all 1s ease;
-    }
-    /* ------------------fifth--task----------------------------------------- */
-    
-    .fifth-container-wrapper {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        max-width: 1170px;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    .icon-box {
-        width: 75%;
-        margin: 30px auto;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-    
-    @media screen and ( max-width :500px) {
-        .fifth-container-wrapper {
-            width: auto;
-        }
-        .icon-box {
-            grid-template-columns: repeat( 2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-        }
-    }
-    /* ------------------sixth--task----------------------------------------- */
-    
-    .sixth-container-wrapper {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        max-width: 1170px;
-        margin: 0 auto;
-    }
-    
-    .sixth-content-container {
-        width: 75%;
-        margin: 70px auto;
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        grid-gap: 25px;
-    }
-    
-    @media screen and ( max-width :500px) {
-        .sixth-container-wrapper {
-            width: auto;
-        }
-        .sixth-content-container {
-            grid-template-columns: repeat( 1, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-        }
-    }
-    /*------------------seventh--task-----------------------------------------*/
-    
-    .seventh-container {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        max-width: 1170px;
-        margin: 0 auto;
-    }
-    
-    .column-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 30px;
-        line-height: 30px;
-    }
-    
-    .column-container .column {
-        border-radius: 40px;
-        position: relative;
-        perspective: 500px;
-    }
-    
-    .column-container .column img {
-        transform: rotateY(-16deg) rotateZ(5deg);
-        display: block;
-        margin: 0 auto;
-        position: absolute;
-        bottom: 26%;
-        left: 15%;
-        box-shadow: 25px 25px 22px rgba(0, 0, 0, 0.285);
-    }
-    
-    @media screen and ( max-width :500px) {
-        .seventh-container {
-            width: auto;
-        }
-        .column-container {
-            grid-template-columns: repeat( 1, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-        }
-        .column-container .column {
-            margin-top: 150px;
-        }
-    }
-    /* <!-- -----------------------eight--------task------------------------> */
-    
-    .eight-container {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        max-width: 1170px;
-        margin: 0 auto;
-        text-align: center;
-        line-height: 40px;
-    }
-    
-    .column-container-wrapper {
-        max-width: 1170px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 80px;
-        line-height: 30px;
-    }
-    
-    .column-container-wrapper .column {
-        perspective: 500px;
-        position: relative;
-        padding: 50px 0;
-    }
-    
-    .bottom-text {
-        position: absolute;
-        bottom: 7%;
-        display: block;
-    }
-    
-    .column-container-wrapper .column img {
-        transform: rotateY(-14deg) rotateZ(5deg);
-        display: block;
-        margin: 0 auto;
-        box-shadow: 25px 25px 22px rgba(0, 0, 0, 0.244);
-    }
-    
-    @media screen and ( max-width :500px) {
-        .eight-container {
-            width: auto;
-        }
-        .column-container-wrapper {
-            grid-template-columns: repeat( 1, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            width: 100%;
-        }
-    }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            i {
+                cursor: pointer;
+            }
+            
+            .first-container-wrapper {
+                max-width: 1170px;
+                margin: 0 auto;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .heading-one {
+                font-size: x-large;
+                font-weight: 700;
+                text-align: center;
+                padding: 30px;
+            }
+            
+            .content-container-wrapper {
+                padding: 0 25px;
+            }
+            
+            .column-one {
+                width: calc(100% / 3);
+                float: left;
+                box-sizing: border-box;
+                margin: 20px 0;
+            }
+            
+            .text-area-box {
+                max-width: 100%;
+            }
+            
+            .clearfix {
+                clear: both;
+            }
+            
+            h4 {
+                margin: 20px 0;
+            }
+            /* responsive */
+            
+            @media screen and ( max-width :1170px) {
+                .content-container-wrapper {
+                    width: 991px;
+                    padding: 0 20px;
+                    overflow-x: hidden;
+                }
+                .column-one {
+                    width: 50%;
+                    padding: 0 10px;
+                }
+                .text-area-box {
+                    text-align: left;
+                }
+            }
+            
+            @media screen and ( max-width :850px) {
+                .content-container-wrapper {
+                    width: 480px;
+                    overflow-x: hidden;
+                }
+                .column-one {
+                    width: 100%;
+                }
+            }
+            
+            @media screen and ( max-width :480px) {
+                .content-container-wrapper {
+                    width: auto;
+                    overflow-x: hidden;
+                }
+                .column-one {
+                    width: 100%;
+                    float: none;
+                    text-align: left;
+                }
+                .heading-one {
+                    padding: 20px;
+                    max-width: 100%;
+                    text-align: left;
+                }
+            }
+            /* -------------------------second------------circle---task----------- */
+            
+            .second-container-wrapper {
+                max-width: 1170px;
+                margin: 70px auto 0 auto;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+            
+            .clearfix {
+                clear: both;
+            }
+            
+            .heading-two {
+                font-size: x-large;
+                font-weight: 700;
+                padding: 30px 0;
+            }
+            
+            .item {
+                width: calc(100% / 3 - 30px);
+                padding: 15px;
+                float: left;
+            }
+            
+            .item img {
+                border-radius: 50%;
+                margin: 0 auto;
+                display: block;
+            }
+            /* responsive */
+            
+            @media screen and ( max-width: 1170px) {
+                .second-container-wrapper {
+                    width: 991px;
+                }
+                .item {
+                    width: 40%;
+                }
+            }
+            
+            @media screen and ( max-width: 991px) {
+                .second-container-wrapper {
+                    width: 750px;
+                }
+                .item {
+                    width: 60%;
+                    /* float: none; */
+                }
+            }
+            
+            @media screen and ( max-width :750px) {
+                .second-container-wrapper {
+                    width: 500;
+                    overflow-x: hidden;
+                }
+                .item {
+                    width: 80%;
+                }
+            }
+            
+            @media screen and ( max-width :500px) {
+                .second-container-wrapper {
+                    width: auto;
+                    overflow-x: hidden;
+                }
+                .item {
+                    width: 100%;
+                }
+            }
+            /* -------------------third-----parallex---------------------------- */
+            
+            .parallex-container {
+                width: 1170px;
+                margin: 70px auto 0 auto;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .parallex-one {
+                background-image: url(https://picsum.photos/1170/864);
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+                color: white;
+                position: relative;
+                opacity: 0.7;
+            }
+            
+            .caption {
+                position: absolute;
+                width: 100%;
+                top: 47%;
+                left: 0;
+                text-align: center;
+            }
+            
+            .span-box {
+                padding: 15px;
+                font-size: 25px;
+                color: white;
+                background-color: rgb(28, 26, 26);
+            }
+            
+            .parallex-two {
+                background-image: url(https://picsum.photos/1170/865);
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+                color: white;
+                position: relative;
+                opacity: 0.7;
+            }
+            
+            @media screen and ( max-width :500px) {
+                .parallex-container {
+                    width: auto;
+                }
+                .parallex,
+                .parallex-two {
+                    width: 100%;
+                }
+            }
+            /* -----------------fourth--------------task------------------------- */
+            
+            .fourth-container-wrapper {
+                max-width: 1170px;
+                line-height: 30px;
+                margin: 70px auto 0 auto;
+                padding: 80px 0 80px 80px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                background-image: url(https://www.w3schools.com/html/pic_trulli.jpg);
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-size: cover;
+            }
+            
+            .list-heading {
+                font-size: xx-large;
+                font-weight: 700;
+                line-height: 30px;
+            }
+            
+            .btn {
+                padding: 10px 40px;
+                background: rgba(246, 173, 45, 1);
+                color: black;
+                text-decoration: none;
+                border-radius: 50px;
+                font-weight: bold;
+            }
+            
+            .btn:hover {
+                border: 2px solid rgba(246, 173, 45, 1);
+                background: white;
+                color: rgba(246, 173, 45, 1);
+                transition: all 1s ease;
+            }
+            /* ------------------fifth--task----------------------------------------- */
+            
+            .fifth-container-wrapper {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                max-width: 1170px;
+                margin: 70px auto 0 auto;
+                text-align: center;
+            }
+            
+            .icon-box {
+                max-width: 100%;
+                /* margin: 30px 0; */
+                padding: 30px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            @media screen and ( max-width :900px) {
+                .fifth-container-wrapper {
+                    width: 500px;
+                }
+                .icon-box {
+                    grid-template-columns: repeat( 2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                }
+            }
+            
+            @media screen and ( max-width :500px) {
+                .fifth-container-wrapper {
+                    width: auto;
+                }
+                .icon-box {
+                    grid-template-columns: repeat( 2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                }
+            }
+            /* ------------------sixth--task----------------------------------------- */
+            
+            .sixth-container-wrapper {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                max-width: 1170px;
+                margin: 70px auto 0 auto;
+            }
+            
+            .sixth-content-container {
+                width: 75%;
+                margin: 70px auto;
+                display: grid;
+                grid-template-columns: 1fr 4fr;
+                grid-gap: 25px;
+            }
+            
+            @media screen and ( max-width :500px) {
+                .sixth-container-wrapper {
+                    width: auto;
+                }
+                .sixth-content-container {
+                    grid-template-columns: repeat( 1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                }
+            }
+            /*------------------seventh--task-----------------------------------------*/
+            
+            .seventh-container {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                max-width: 1170px;
+                margin: 70px auto 0 auto;
+            }
+            
+            .column-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 30px;
+                line-height: 30px;
+            }
+            
+            .column-container .column {
+                border-radius: 40px;
+                position: relative;
+                perspective: 500px;
+            }
+            
+            .column-container .column img {
+                transform: rotateY(-16deg) rotateZ(5deg);
+                display: block;
+                margin: 0 auto;
+                position: absolute;
+                bottom: 26%;
+                left: 15%;
+                box-shadow: 25px 25px 22px rgba(0, 0, 0, 0.285);
+            }
+            
+            @media screen and ( max-width :500px) {
+                .seventh-container {
+                    width: auto;
+                }
+                .column-container {
+                    grid-template-columns: repeat( 1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                }
+                .column-container .column {
+                    margin-top: 150px;
+                }
+            }
+            /* <!-- -----------------------eight--------task------------------------> */
+            
+            .eight-container {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                max-width: 1170px;
+                margin: 70px auto 0 auto;
+                text-align: center;
+                line-height: 40px;
+            }
+            
+            .column-container-wrapper {
+                max-width: 1170px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 80px;
+                line-height: 30px;
+            }
+            
+            .column-container-wrapper .column {
+                perspective: 500px;
+                position: relative;
+                padding: 50px 0;
+            }
+            
+            .bottom-text {
+                position: absolute;
+                bottom: 7%;
+                display: block;
+            }
+            
+            .column-container-wrapper .column img {
+                transform: rotateY(-14deg) rotateZ(5deg);
+                display: block;
+                margin: 0 auto;
+                box-shadow: 25px 25px 22px rgba(0, 0, 0, 0.201);
+            }
+            
+            @media screen and ( max-width :500px) {
+                .eight-container {
+                    width: auto;
+                }
+                .column-container-wrapper {
+                    grid-template-columns: repeat( 1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    width: 100%;
+                }
+            }
