@@ -1,276 +1,486 @@
-* {
-                                                                                                                                                                                                                                                                    margin: 0;
-                                                                                                                                                                                                                                                                    padding: 0;
-                                                                                                                                                                                                                                                                    box-sizing: border-box;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                i {
-                                                                                                                                                                                                                                                                    cursor: pointer;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .first-container-wrapper {
-                                                                                                                                                                                                                                                                    max-width: 1170px;
-                                                                                                                                                                                                                                                                    margin: 0 auto;
-                                                                                                                                                                                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .heading-one {
-                                                                                                                                                                                                                                                                    font-size: x-large;
-                                                                                                                                                                                                                                                                    font-weight: 700;
-                                                                                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                                                                                    padding: 30px;
-                                                                                                                                                                                                                                                                    max-width: 100%;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .column-one {
-                                                                                                                                                                                                                                                                    max-width: calc(33.33%);
-                                                                                                                                                                                                                                                                    float: left;
-                                                                                                                                                                                                                                                                    box-sizing: border-box;
-                                                                                                                                                                                                                                                                    padding: 0 20px;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .text-area-box {
-                                                                                                                                                                                                                                                                    width: 100%;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .clearfix {
-                                                                                                                                                                                                                                                                    clear: both;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                h4 {
-                                                                                                                                                                                                                                                                    margin: 20px 0;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* responsive */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width: 900px) {
-                                                                                                                                                                                                                                                                    .first-container-wrapper {
-                                                                                                                                                                                                                                                                        max-width: 800px;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .column-one {
-                                                                                                                                                                                                                                                                        max-width: 100%;
-                                                                                                                                                                                                                                                                        float: none;
-                                                                                                                                                                                                                                                                        margin-top: 40px;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .text-area-box {
-                                                                                                                                                                                                                                                                        text-align: left;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width: 500px) {
-                                                                                                                                                                                                                                                                    .first-container-wrapper {
-                                                                                                                                                                                                                                                                        width: auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .column-one,
-                                                                                                                                                                                                                                                                    .column-one img {
-                                                                                                                                                                                                                                                                        max-width: 100%;
-                                                                                                                                                                                                                                                                        float: none;
-                                                                                                                                                                                                                                                                        /* margin-top: 20px; */
-                                                                                                                                                                                                                                                                        display: block;
-                                                                                                                                                                                                                                                                        margin: 20px auto 0 auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .text-area-box {
-                                                                                                                                                                                                                                                                        text-align: center;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* -------------------------second------------circle---task----------- */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .second-container-wrapper {
-                                                                                                                                                                                                                                                                    max-width: 1170px;
-                                                                                                                                                                                                                                                                    margin: 70px auto 0 auto;
-                                                                                                                                                                                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .clearfix {
-                                                                                                                                                                                                                                                                    clear: both;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .heading-two {
-                                                                                                                                                                                                                                                                    font-size: x-large;
-                                                                                                                                                                                                                                                                    font-weight: 700;
-                                                                                                                                                                                                                                                                    padding: 30px 0;
-                                                                                                                                                                                                                                                                    max-width: 100%;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .item {
-                                                                                                                                                                                                                                                                    max-width: 33.33%;
-                                                                                                                                                                                                                                                                    float: left;
-                                                                                                                                                                                                                                                                    padding: 20px;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* responsive */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width: 768px) {
-                                                                                                                                                                                                                                                                    .second-container-wrapper {
-                                                                                                                                                                                                                                                                        width: 500px;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .item {
-                                                                                                                                                                                                                                                                        max-width: 33.3%;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width: 500px) {
-                                                                                                                                                                                                                                                                    .second-container-wrapper {
-                                                                                                                                                                                                                                                                        width: auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .item {
-                                                                                                                                                                                                                                                                        max-width: 100%;
-                                                                                                                                                                                                                                                                        float: none;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* -------------------third-----parallex---------------------------- */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .parallex-container {
-                                                                                                                                                                                                                                                                    max-width: 1170px;
-                                                                                                                                                                                                                                                                    margin: 70px auto 0 auto;
-                                                                                                                                                                                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .parallex-one {
-                                                                                                                                                                                                                                                                    background-image: url(https://picsum.photos/1170/864);
-                                                                                                                                                                                                                                                                    background-attachment: fixed;
-                                                                                                                                                                                                                                                                    background-position: center;
-                                                                                                                                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                                                                                                                                    background-size: cover;
-                                                                                                                                                                                                                                                                    height: 100vh;
-                                                                                                                                                                                                                                                                    color: white;
-                                                                                                                                                                                                                                                                    position: relative;
-                                                                                                                                                                                                                                                                    opacity: 0.7;
-                                                                                                                                                                                                                                                                    max-width: 100%;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .caption {
-                                                                                                                                                                                                                                                                    position: absolute;
-                                                                                                                                                                                                                                                                    min-width: 100%;
-                                                                                                                                                                                                                                                                    top: 47%;
-                                                                                                                                                                                                                                                                    left: 0;
-                                                                                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .span-box {
-                                                                                                                                                                                                                                                                    padding: 15px;
-                                                                                                                                                                                                                                                                    font-size: 25px;
-                                                                                                                                                                                                                                                                    color: white;
-                                                                                                                                                                                                                                                                    background-color: rgb(28, 26, 26);
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .parallex-two {
-                                                                                                                                                                                                                                                                    background-image: url(https://picsum.photos/1170/865);
-                                                                                                                                                                                                                                                                    background-attachment: fixed;
-                                                                                                                                                                                                                                                                    background-position: center;
-                                                                                                                                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                                                                                                                                    background-size: cover;
-                                                                                                                                                                                                                                                                    height: 100vh;
-                                                                                                                                                                                                                                                                    color: white;
-                                                                                                                                                                                                                                                                    position: relative;
-                                                                                                                                                                                                                                                                    opacity: 0.7;
-                                                                                                                                                                                                                                                                    max-width: 100%;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width :500px) {
-                                                                                                                                                                                                                                                                    .parallex-container {
-                                                                                                                                                                                                                                                                        width: auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .parallex,
-                                                                                                                                                                                                                                                                    .parallex-two {
-                                                                                                                                                                                                                                                                        width: 100%;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* -----------------fourth--------------task------------------------- */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .fourth-container-wrapper {
-                                                                                                                                                                                                                                                                    max-width: 1170px;
-                                                                                                                                                                                                                                                                    line-height: 30px;
-                                                                                                                                                                                                                                                                    margin: 70px auto 0 auto;
-                                                                                                                                                                                                                                                                    padding: 80px 0 80px 80px;
-                                                                                                                                                                                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                                                                                                                                                                                                    color: white;
-                                                                                                                                                                                                                                                                    background-image: url(https://www.w3schools.com/html/pic_trulli.jpg);
-                                                                                                                                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                                                                                                                                    background-attachment: scroll;
-                                                                                                                                                                                                                                                                    background-size: cover;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .list-heading {
-                                                                                                                                                                                                                                                                    font-size: xx-large;
-                                                                                                                                                                                                                                                                    font-weight: 700;
-                                                                                                                                                                                                                                                                    line-height: 30px;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .btn {
-                                                                                                                                                                                                                                                                    padding: 10px 40px;
-                                                                                                                                                                                                                                                                    background: rgba(246, 173, 45, 1);
-                                                                                                                                                                                                                                                                    color: black;
-                                                                                                                                                                                                                                                                    text-decoration: none;
-                                                                                                                                                                                                                                                                    border-radius: 50px;
-                                                                                                                                                                                                                                                                    font-weight: bold;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .btn:hover {
-                                                                                                                                                                                                                                                                    border: 2px solid rgba(246, 173, 45, 1);
-                                                                                                                                                                                                                                                                    background: white;
-                                                                                                                                                                                                                                                                    color: rgba(246, 173, 45, 1);
-                                                                                                                                                                                                                                                                    transition: all 1s ease;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* ------------------fifth--task----------------------------------------- */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .fifth-container-wrapper {
-                                                                                                                                                                                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                                                                                                                                                                                                    max-width: 1170px;
-                                                                                                                                                                                                                                                                    margin: 70px auto 0 auto;
-                                                                                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .icon {
-                                                                                                                                                                                                                                                                    width: calc(25% - 40px);
-                                                                                                                                                                                                                                                                    float: left;
-                                                                                                                                                                                                                                                                    margin: 20px;
-                                                                                                                                                                                                                                                                    box-sizing: border-box;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width :768px) {
-                                                                                                                                                                                                                                                                    .fifth-container-wrapper {
-                                                                                                                                                                                                                                                                        width: 500px;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .icon {
-                                                                                                                                                                                                                                                                        width: 33%;
-                                                                                                                                                                                                                                                                        margin: 0 auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width :500px) {
-                                                                                                                                                                                                                                                                    .fifth-container-wrapper {
-                                                                                                                                                                                                                                                                        width: auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .icon {
-                                                                                                                                                                                                                                                                        margin: 0 auto;
-                                                                                                                                                                                                                                                                        width: 45%;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                /* ------------------sixth--task----------------------------------------- */
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .sixth-container-wrapper {
-                                                                                                                                                                                                                                                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                                                                                                                                                                                                    max-width: 1170px;
-                                                                                                                                                                                                                                                                    margin: 70px auto 0 auto;
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .sixth-content-container {
-                                                                                                                                                                                                                                                                    background: rgba(0, 0, 0, 0.032);
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                .content-box {
-                                                                                                                                                                                                                                                                    padding: 10px;
-                                                                                                                                                                                                                                                                    float: left;
-                                                                                                                                                                                                                                                                    /* border: 2px solid black; */
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                @media screen and ( max-width :500px) {
-                                                                                                                                                                                                                                                                    .sixth-container-wrapper {
-                                                                                                                                                                                                                                                                        width: auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                    .content-box {
-                                                                                                                                                                                                                                                                        width: 100%;
-                                                                                                                                                                                                                                                                        float: none;
-                                                                                                                                                                                                                                                                        margin: 0 auto;
-                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ i {
+     cursor: pointer;
+ }
+ 
+ .first-container-wrapper {
+     max-width: 1170px;
+     margin: 0 auto;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .heading-one {
+     font-size: x-large;
+     font-weight: 700;
+     text-align: center;
+     padding: 30px;
+     max-width: 100%;
+ }
+ 
+ .column-one {
+     max-width: calc(33.33%);
+     float: left;
+     box-sizing: border-box;
+     padding: 0 20px;
+ }
+ 
+ .text-area-box {
+     width: 100%;
+ }
+ 
+ .clearfix {
+     clear: both;
+ }
+ 
+ h4 {
+     margin: 20px 0;
+ }
+ /* responsive */
+ 
+ @media screen and ( max-width: 900px) {
+     .first-container-wrapper {
+         max-width: 800px;
+     }
+     .column-one {
+         max-width: 100%;
+         float: none;
+         margin-top: 40px;
+     }
+     .text-area-box {
+         text-align: left;
+     }
+ }
+ 
+ @media screen and ( max-width: 500px) {
+     .first-container-wrapper {
+         width: auto;
+     }
+     .column-one,
+     .column-one img {
+         max-width: 100%;
+         float: none;
+         /* margin-top: 20px; */
+         display: block;
+         margin: 20px auto 0 auto;
+     }
+     .text-area-box {
+         text-align: center;
+     }
+ }
+ /* -------------------------second------------circle---task----------- */
+ 
+ .second-container-wrapper {
+     max-width: 1170px;
+     margin: 70px auto 0 auto;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+ }
+ 
+ .clearfix {
+     clear: both;
+ }
+ 
+ .heading-two {
+     font-size: x-large;
+     font-weight: 700;
+     padding: 30px 0;
+     max-width: 100%;
+ }
+ 
+ .item {
+     max-width: 33.33%;
+     float: left;
+     padding: 20px;
+ }
+ /* responsive */
+ 
+ @media screen and ( max-width: 768px) {
+     .second-container-wrapper {
+         width: 500px;
+     }
+     .item {
+         max-width: 33.3%;
+     }
+ }
+ 
+ @media screen and ( max-width: 500px) {
+     .second-container-wrapper {
+         width: auto;
+     }
+     .item {
+         max-width: 100%;
+         float: none;
+     }
+ }
+ /* -------------------third-----parallex---------------------------- */
+ 
+ .parallex-container {
+     max-width: 1170px;
+     margin: 70px auto 0 auto;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .parallex-one {
+     background-image: url(https://picsum.photos/1170/864);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     color: white;
+     position: relative;
+     opacity: 0.7;
+     max-width: 100%;
+ }
+ 
+ .caption {
+     position: absolute;
+     min-width: 100%;
+     top: 47%;
+     left: 0;
+     text-align: center;
+ }
+ 
+ .span-box {
+     padding: 15px;
+     font-size: 25px;
+     color: white;
+     background-color: rgb(28, 26, 26);
+ }
+ 
+ .parallex-two {
+     background-image: url(https://picsum.photos/1170/865);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     color: white;
+     position: relative;
+     opacity: 0.7;
+     max-width: 100%;
+ }
+ 
+ @media screen and ( max-width :500px) {
+     .parallex-container {
+         width: auto;
+     }
+     .parallex,
+     .parallex-two {
+         width: 100%;
+     }
+ }
+ /* -----------------fourth--------------task------------------------- */
+ 
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ .fourth-container {
+     max-width: 1170px;
+     margin: 80px auto 0 auto;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .hero {
+     color: aliceblue;
+     position: relative;
+     height: 100vh;
+     width: 100%;
+ }
+ 
+ .hero::before {
+     content: "";
+     background-image: url(https://www.w3schools.com/html/pic_trulli.jpg);
+     background-size: cover;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 0px;
+     filter: contrast(25%);
+ }
+ 
+ .list-heading {
+     color: white;
+     font-size: xx-large;
+     font-weight: 700;
+     line-height: 30px;
+     filter: brightness(150%);
+ }
+ 
+ .list-box {
+     line-height: 30px;
+     max-width: 100%;
+     padding: 100px 0 0 50px;
+     font-size: larger;
+     color: white;
+     filter: brightness(200%);
+ }
+ 
+ .btn {
+     padding: 10px 40px;
+     background: rgba(246, 173, 45, 1);
+     color: black;
+     text-decoration: none;
+     border-radius: 50px;
+     font-weight: bold;
+     filter: brightness(50%);
+     max-width: max-content;
+     display: block;
+ }
+ 
+ .btn:hover {
+     border: 2px solid rgba(246, 173, 45, 1);
+     background: white;
+     color: rgba(246, 173, 45, 1);
+     transition: all 1s ease;
+ }
+ 
+ @media screen and ( max-width :500px) {
+     .fourth-container- {
+         width: auto;
+     }
+     .list-box {
+         width: 100%;
+     }
+ }
+ /* ------------------fifth--task----------------------------------------- */
+ 
+ .fifth-container-wrapper {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     max-width: 1170px;
+     margin: 80px auto 0 auto;
+     text-align: center;
+ }
+ 
+ .icon {
+     width: calc(25% - 40px);
+     float: left;
+     margin: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .btn-1 {
+     padding: 10px 40px;
+     background: rgba(246, 173, 45, 1);
+     color: black;
+     text-decoration: none;
+     border-radius: 50px;
+     font-weight: bold;
+     max-width: max-content;
+     display: block;
+     margin: 30px auto 0 auto;
+ }
+ 
+ .btn-1:hover {
+     border: 2px solid rgba(246, 173, 45, 1);
+     background: white;
+     color: rgba(246, 173, 45, 1);
+     transition: all 1s ease;
+ }
+ 
+ @media screen and ( max-width :768px) {
+     .fifth-container-wrapper {
+         width: 500px;
+     }
+     .icon {
+         width: 33%;
+         margin: 0 auto;
+     }
+ }
+ 
+ @media screen and ( max-width :500px) {
+     .fifth-container-wrapper {
+         width: auto;
+     }
+     .icon {
+         margin: 0 auto;
+         width: 45%;
+     }
+ }
+ /* ------------------sixth--task----------------------------------------- */
+ 
+ .sixth-container-wrapper {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     max-width: 1170px;
+     margin: 80px auto 0 auto;
+ }
+ 
+ .sixth-content-container {
+     background: rgba(0, 0, 0, 0.032);
+ }
+ 
+ .content-box {
+     padding: 10px;
+     float: left;
+     /* border: 2px solid black; */
+ }
+ 
+ @media screen and ( max-width :500px) {
+     .sixth-container-wrapper {
+         width: auto;
+     }
+     .content-box {
+         width: 100%;
+         float: none;
+         margin: 0 auto;
+     }
+ }
+ /*------------------seventh--task-----------------------------------------*/
+ 
+ .seventh-container {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     max-width: 1170px;
+     margin: 120px auto 0 auto;
+     line-height: 30px;
+ }
+ 
+ .col-one,
+ .col {
+     width: calc(33.33% - 60px);
+     margin: 0 30px;
+     box-sizing: border-box;
+     float: left;
+     border-radius: 40px;
+     position: relative;
+     perspective: 500px;
+     min-height: 565px;
+ }
+ 
+ .col img {
+     transform: rotateY(-16deg) rotateZ(5deg);
+     display: block;
+     margin: 0 auto;
+     max-width: 100%;
+     position: absolute;
+     bottom: 26%;
+     left: 15%;
+     box-shadow: 25px 25px 22px rgba(0, 0, 0, 0.285);
+ }
+ /* - - -responsive--- - */
+ 
+ @media screen and ( max-width :991px) {
+     .col-one {
+         width: calc(100% - 60px);
+         margin: 0 30px;
+     }
+     .col {
+         width: calc(50% - 60px);
+         margin: 0 30px;
+     }
+ }
+ 
+ @media screen and ( max-width :768px) {
+     .seventh-container {
+         width: auto;
+     }
+     .col,
+     .col-one {
+         width: calc(60% - 60px);
+         margin: 0 30px;
+         float: none;
+         margin-top: 80px;
+     }
+ }
+ 
+ @media screen and ( max-width :530px) {
+     .seventh-container {
+         max-width: auto;
+         text-align: center;
+     }
+     .col,
+     .col-one {
+         width: calc(98% - 60px);
+         margin: 0 30px;
+         float: none;
+         margin-top: 80px;
+     }
+ }
+ /* ----------eight--------task------------------------  */
+ 
+ .eight-container {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     max-width: 1170px;
+     margin: 70px auto 0 auto;
+     text-align: center;
+     line-height: 40px;
+ }
+ 
+ .col-1,
+ .col-2 {
+     float: left;
+     margin-top: 50px;
+     min-height: 580px;
+     box-sizing: border-box;
+ }
+ 
+ .col-text-one,
+ .col-text-two {
+     max-width: 50%;
+     padding: 0 20px;
+     float: left;
+     line-height: 25px;
+     min-height: 500px;
+ }
+ 
+ .col-text-one span,
+ .col-text-two span {
+     padding: 0 5px 30px 0;
+     display: block;
+ }
+ 
+ .col-1 {
+     perspective: 500px;
+ }
+ 
+ .col-1 img {
+     transform: rotateY(-16deg) rotateZ(5deg);
+     display: block;
+     max-width: 100%;
+     margin: 0 auto;
+     box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.26);
+ }
+ 
+ @media screen and ( max-width :768px) {
+     .col-1,
+     .col-2 {
+         max-width: 100%;
+         float: none;
+         margin: 0 auto;
+     }
+     .col-text-one,
+     .col-text-two {
+         float: none;
+         min-width: 100%;
+         margin: 0 auto;
+     }
+ }
+ 
+ @media screen and ( max-width :550px) {
+     .eight-container {
+         max-width: auto;
+     }
+     .col-1,
+     .col-2 {
+         width: 100%;
+         float: none;
+         margin: 0 auto;
+     }
+     .col-text-one,
+     .col-text-two {
+         float: none;
+         min-width: 100%;
+         margin: 0 auto;
+     }
+     .col-1 img {
+         max-width: 100%;
+     }
+ }
